@@ -1,0 +1,131 @@
+### Exercicio Menu 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cardápio de Massas</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #e85b39;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 600px;
+        margin: 30px auto;
+        background-color:  #e85b39;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .secao {
+        margin-bottom: 40px;
+        overflow: auto; 
+    }
+
+    .titulo-secao {
+        background-color: green;
+        padding: 8px 10px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .item {
+        width: 100%;
+        margin: 10px 0;
+        overflow: auto;
+    }
+
+    .nome {
+        float: left;
+        width: 70%;
+        font-size: 16px;
+        color: white;
+    }
+
+    .preco {
+        float: right;
+        width: 25%;
+        text-align: right;
+        font-size: 16px;
+        color: white;
+    }
+
+    .imagem {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .imagem img {
+        width: 180px;
+        border-radius: 5px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>CARDÁPIO DE MASSAS</h1>
+
+    <!-- Massas Tradicionais -->
+    <div class="secao">
+        <div class="titulo-secao">Massas Tradicionais</div>
+        <div class="item">
+            <div class="nome">Spaghetti ao Molho de Tomate</div>
+            <div class="preco">R$ 22.00</div>
+        </div>
+        <div class="item">
+            <div class="nome">Fettuccine Alfredo</div>
+            <div class="preco">R$ 25.00</div>
+        </div>
+        <div class="imagem">
+            <img src="imagem1.jpg" alt="Spaghetti ao molho de tomate">
+        </div>
+    </div>
+
+    <!-- Massas Artesanais -->
+    <div class="secao">
+        <div class="titulo-secao">Massas Artesanais</div>
+        <div class="item">
+            <div class="nome">Lasanha à Bolonhesa</div>
+            <div class="preco">R$ 28.00</div>
+        </div>
+        <div class="item">
+            <div class="nome">Ravioli de Queijo</div>
+            <div class="preco">R$ 30.00</div>
+        </div>
+        <div class="imagem">
+            <img src="imagem2.jpg" alt="Lasanha">
+        </div>
+    </div>
+
+    <!-- Sobremesas -->
+    <div class="secao">
+        <div class="titulo-secao">Sobremesas</div>
+        <div class="item">
+            <div class="nome">Tiramisu</div>
+            <div class="preco">R$ 15.00</div>
+        </div>
+        <div class="item">
+            <div class="nome">Pudim de Leite</div>
+            <div class="preco">R$ 12.00</div>
+        </div>
+        <div class="imagem">
+            <img src="imagem3.jpg" alt="Tiramisu">
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
